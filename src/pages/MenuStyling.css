@@ -1,0 +1,274 @@
+.menu__page {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    color: #243627;
+}
+
+.menu__image__container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: .5rem 0;
+    width: 90%;
+    color: #243627;
+}
+
+.menu__image {
+    padding: 1rem; 
+}
+
+.menu__selection__list {
+    text-align: center;
+}
+
+.menu__selection__list > div {
+    padding: .5rem 0;
+}
+
+.menu__selection__item {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__selection__item > a {
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+
+.menu__button {
+    border: 0;
+    border-bottom: 1.2px solid #243627;
+    background-color: transparent;
+    padding: 0 1rem .2rem
+}
+
+.menu__button:hover {
+    padding: 0 1.5rem .2rem;
+    transition: all .4s ease-in-out;
+}
+
+
+.spice__level__description {
+    max-width: 385px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.spice__level__description > p {
+    font-weight: 100;
+}
+
+.menu {
+    margin: 2rem auto;
+    border: 1.2px solid #243627;
+    border-radius: 3rem;
+    max-width: 750px;
+}
+
+.menu__container {
+    margin: 3rem 4.5rem;
+}
+
+.menu__symbols {
+    display: flex;
+}
+
+.menu__symbols > p {
+    padding: .5rem 1.5rem 0 .5rem;
+}
+
+
+.menu__section {
+    padding: 1rem .5rem;
+}
+
+.menu__bulk > p {
+    margin: 0;
+}
+
+.menu__section__title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.description {
+    font-weight: 200;
+}
+
+.bev__description {
+    font-weight: 200;
+    font-size: .9rem;
+}
+
+.specification {
+    font-weight: 200;
+    font-size: .9rem;
+    padding: 1px;
+}
+
+.menu__item {
+    display: flex;
+    justify-content: space-between;
+    padding: .2rem 0;
+}
+
+.protein {
+    display: flex;
+    justify-content: space-between;
+}
+
+.protein > p {
+    margin: .2rem 0;
+}
+
+.lunch__menu__section {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.lunch__menu__section > li {
+    margin: .2rem 0;
+}
+
+.lunch-offer {
+    padding: 1.5rem 0;
+    font-style: italic;
+}
+
+.item-sub-description {
+    font-size: .9rem;
+    margin-bottom: .4rem;
+}
+
+.menu__section > li {
+    line-height: 1.6rem;
+}
+
+.happyhour__section {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.happyhour__section > div {
+    padding: .5rem 0;
+}
+
+.italics {
+    font-style: italic;
+}
+
+
+.download__container {
+    text-align: right;
+    padding: 3rem 0 1rem;
+}
+
+.download__container > a {
+    padding: 1rem;
+    border: 1px solid #243627;
+    border-radius: .7rem;
+}
+
+.download__container > a:hover {
+    background-color: var(--secondary-color-blue);
+    color: var(--background-color-tan);
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .menu {
+        width: 100%;
+        max-width: 750px;
+    }
+   
+}
+
+@media only screen and (max-width: 800px) {
+    .sub__image {
+        display: none;
+    }
+
+    .menu__image {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .menu__symbols > p {
+        padding: .5rem .5rem 0 .5rem;
+    }
+
+    .download__container {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 730px) {
+    .menu__container {
+        margin: 3rem 1.5rem;
+    }
+
+    .menu__page {
+        width: 95%;
+    }
+}
+
+
+@media only screen and (max-width: 490px) {
+
+    .menu__symbols {
+        flex-direction: column;
+        padding-top: .5rem;
+    }
+
+    .menu__symbols > p {
+        padding: 0;
+
+        text-align: center;
+    }
+
+    .menu__selection__item {
+        width: 80%;
+    }
+
+    .menu__container {
+        margin: 3rem .8rem;
+    }
+
+    .menu__category {
+        text-align: center;
+    }
+
+}
+
+
+
+/*  active content styling */
+
+
+      
+
+.menu-content {
+    display: none;
+}
+
+.active-content {
+    display: block;
+}
+
+.active-tab {
+    font-weight: 500;
+}
