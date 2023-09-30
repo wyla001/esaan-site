@@ -28,6 +28,7 @@ I chose to use React to build this site due to the framework’s capabilities to
  **Libraries**: React Router
  <br>
  **UX/UI**: Figma | Canva 
+ <br>
 
 
 <center>
