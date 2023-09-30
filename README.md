@@ -21,7 +21,8 @@ Here you will find the source code for the project and a link to the deployed si
 I chose to use React to build this site due to the framework’s capabilities to create reusable components. This way, changing menu data could be represented via their own components and seamlessly integrate into each manageable menu page.
 
 
- **Languages**: JavaScript | CSS | HTML 
+ **Languages**: JavaScript | CSS | HTML
+ <br>
  **Frameworks**: React
  **Libraries**: React Router
  **UX/UI**: Figma | Canva 
