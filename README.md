@@ -29,10 +29,6 @@ I chose to use React to build this site due to the framework’s capabilities to
 
 <center>
  <img src="./src/assets/readme-logo2.png" alt="esaan website example 3" width="1200"/>
- <div>
-  <img src="./src/assets/readme-example1.png" alt="esaan website example 1" width="200"/>
-  <img src="./src/assets/readme-example2.png" alt="esaan website example 2" width="200"/>
- </div>
 </center>
 
 
