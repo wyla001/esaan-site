@@ -32,7 +32,8 @@ I chose to use React to build this site due to the framework’s capabilities to
 
 
 <center>
- <img src="./src/assets/readme-logo2.png" alt="esaan website example 3" width="1200"/>
+ <img src="./src/assets/readme-logo2.png" alt="esaan website example 2" width="1200"/>
+ <img src="./src/assets/esaan-mobile.png" alt="esaan website example 3" width="1200"/>
 </center>
 
 
